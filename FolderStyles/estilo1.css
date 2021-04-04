@@ -1,4 +1,4 @@
-{
+* {
     padding: 0;
     margin: 0;
 }
@@ -9,7 +9,9 @@
 }
 
 body {
-    background-color: rgb(67, 216, 204) ;
+    background-color: rgb(67, 216, 204);;
+    margin: auto;
+
 }
 
 #general {
@@ -38,6 +40,7 @@ body {
 #titleForm{
     text-align: center;
     margin-bottom: 20px;
+    font: bolder;
     font-size: 3em;
     font-family: 'Fredoka One', cursive;
 
@@ -66,37 +69,45 @@ input {
     border-radius: 5px;
 }
 
+
 button {
+    color: #33d9b2;
     display: block;
-    width: 89%;
-    padding: 15px;
+    width: 85%;
+    padding: 20%;
     margin-top: 30px;
     margin-left: 50px;
-    background: rgb(67, 216, 204) ;
+    box-shadow: 0px 2px 5px 0px rgb(0, 0, 0);
     border: none;
-    border-radius: 5px;
-    color: white;
+    border-radius: 15px;
     font-family: 'Fredoka One', cursive;
-    font-family: 'Varela Round', sans-serif;
     font-size: 1.5em;
+    font: bold;
 }
+
+
 
 button:hover {
     background:  teal ;
 } 
 
 /* Link que redirecciona al formulario de registro */
+
 #registerLink {
     text-align: right;
-    margin-right: 6%;
-    margin-top: 2%;
+    margin-right: 0%;
+    margin-top: 0%;
 }
 
 #registerLink a{
     text-decoration: none;
-    color:  rgb(67, 216, 204) ;
+    font: bold;
+    font-family: 'Fredoka One', cursive;
+    color:  #33d9b2 ;
 
 }
+
+
 
 #registerLink a:hover {
     color: teal;
