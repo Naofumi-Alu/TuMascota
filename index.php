@@ -1,8 +1,8 @@
 
 <!--Se llama la conexion ala base de datos-->
 
-<? php include("db.php") ?>
-<? php include ("save_account.php"); ?>
+<? php include("db.php"); ?>
+<? php include("save_account.php"); ?>
 
 <!--Contiene la cabecera del codigo -->
 <!DOCTYPE html>
@@ -60,7 +60,7 @@
                 
                 <div class="alert alert-<?= $_SESSION['message_type'] ?> alert-dismissible fade show" role="alert">
 
-                   <? php echo $_SESSION['message']; ?>
+                   <? = $_SESSION['message'] ?>
 
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>

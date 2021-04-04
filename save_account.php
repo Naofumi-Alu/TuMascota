@@ -1,10 +1,10 @@
-<? php 
+<?php 
 
-include ("db.php");
+include("db.php");
 
 if(isset($_POST['register_account'])){
-	$username = $_POST['username'];
-	$nombre = $_POST['nombre'];
+	$_username=$_POST['username'];
+	$_nombre=$_POST['nombre'];
 }
 
 $query = "INSERT INTO cliente(Nombre,Username) VALUES ('$nombre','$username')";
