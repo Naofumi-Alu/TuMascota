@@ -10,7 +10,7 @@ $query = " ";
 $result = " ";
 
 
-if(isset($_POST['register_account'])){
+if (isset($_POST['register_account'])){
 	$username= $_POST['username'];
 	$nombre= $_POST['nombre'];
 }
@@ -27,7 +27,6 @@ if (!$result) {
 	
 	$_SESSION['message'] = 'Save Account succesfully';
 	$_SESSION['message_type'] = 'success';
-	header("location: index.php");
-
+	header("location: Views/registroForm.php");
 
 ?> 
