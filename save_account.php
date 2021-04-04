@@ -2,10 +2,19 @@
 
 include("db.php");
 
+//Declaration of variable
+
+$username=" " ;
+$nombre= " ";
+$query = " ";
+$result = " ";
+
+
 if(isset($_POST['register_account'])){
-	$_username=$_POST['username'];
-	$_nombre=$_POST['nombre'];
+	$username= $_POST['username'];
+	$nombre= $_POST['nombre'];
 }
+
 
 $query = "INSERT INTO cliente(Nombre,Username) VALUES ('$nombre','$username')";
 

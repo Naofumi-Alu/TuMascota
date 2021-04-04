@@ -1,6 +1,8 @@
-<? php
+<?php
 
 	session_start();
+
+	$conn="";
 
 	$conn = mysqli_connect(
 		'localhost',
@@ -9,4 +11,5 @@
 		'php_CRUD_MySql' 
 	);
 
+	
 ?>
