@@ -86,7 +86,7 @@
 
                     <div class="campoForm">
                         <label>Documento de identidad</label>
-                        <input type="number" name="documento" pattern="[a-zA-Z0-9]+" required />
+                        <input type="text" name="documento" pattern="[a-zA-Z0-9]+" required />
                     </div>
 
                     <div class="campoForm">
@@ -110,7 +110,6 @@
                     </div>
 
                     <div class="clearfloat"></div>
-
 
 
                     <div class="campoForm">
