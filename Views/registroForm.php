@@ -67,7 +67,7 @@
 
                     <div class="campoForm">
                         <label>Nombre</label>
-                        <input type="text" name="nombre" pattern="[a-zA-Z0-9]+" required />
+                        <input type="text" name="nombre" pattern="[a-zA-Z0-9]+.{8,}" required />
                     </div>
 
                     <div class="clearfloat"></div>
@@ -91,22 +91,22 @@
 
                     <div class="campoForm">
                         <label>Número de contacto</label>
-                        <input type="tel" name="cachorro" pattern="[a-zA-Z0-9]+" required />
+                        <input type="text" name="telephon" pattern="[a-zA-Z0-9]+" required />
                     </div>
 
                     <div class="campoForm">
                         <label>Correo</label>
-                        <input type="email" name="email" required />
+                        <input type="email" name="email" pattern= "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
                     </div>
 
                     <div class="campoForm">
                         <label>Contraseña</label>
-                        <input type="password" name="contraseña" required pattern=".{8,}" />
+                        <input type="password" name="psw" required pattern=".{8,}" />
                     </div>
 
                     <div class="campoForm">
                         <label>Confirmar contraseña</label>
-                        <input type="password" name="contraseña" required />
+                        <input type="password" name="confirmationPsw" required />
                     </div>
 
                     <div class="clearfloat"></div>
