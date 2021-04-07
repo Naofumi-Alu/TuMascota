@@ -56,7 +56,7 @@
 
         <form method="POST" action="../save_account.php" name="signup-form">
 
-            <div id="card" class=" card  bg-info mb-3">
+            <div id="card"  class=" card  bg-info mb-3 mt-5 mx-5">
 
                 <div class="row no-gutters">
 
