@@ -1,6 +1,12 @@
 <!--Se llama la conexion ala base de datos-->
 
-<?php include("db.php") ?>
+<?php 
+
+include("db.php");
+
+    
+?>
+
 <?php include('include/header.php') ?>
 
 <body>
@@ -10,7 +16,7 @@
         <nav class="navbar navbar-dark bg-dark">
             <div class="container">
 
-                <a href="index.php" class="navbar-brand">Inicio</a>
+                <a href="index.php" class="navbar-brand">Loguin</a>
                 <a href="Views/registroForm.php" class="btn btn-info  float-right">Registrarse</a>
 
             </div>
@@ -24,7 +30,7 @@
         <!-- Encabezado -->
 
         <header>
-            <h2 id="titleForm">Tu Mascota</h2>
+            <h2 id="title">Tu Mascota</h2>
         </header>
 
     </div>
@@ -33,7 +39,7 @@
 
     <section id="form">
 
-        <form method="POST" action="" name="signup-form">
+        <form method="POST" action="Views/account.php" name="signup-form">
 
 
             <div class="campoForm">

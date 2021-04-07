@@ -56,7 +56,7 @@
 
         <form method="POST" action="../save_account.php" name="signup-form">
 
-            <div id="card"  class=" card  bg-info mb-3 mt-5 mx-5">
+            <div id="card"  class=" card  bg-info pb-3 mt-5 mx-5">
 
                 <div class="row no-gutters">
 
@@ -67,7 +67,7 @@
 
                     <div class="campoForm">
                         <label>Nombre</label>
-                        <input type="text" name="nombre" pattern="[a-zA-Z0-9]+.{8,}" required />
+                        <input type="text" name="nombre" pattern="[a-zA-Z0-9]+" required />
                     </div>
 
                     <div class="clearfloat"></div>
